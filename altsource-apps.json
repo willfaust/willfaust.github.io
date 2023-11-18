@@ -1,6 +1,6 @@
 {
   "name": "Will Faust's AltSource",
-  "identifier": "com.willfaust.apps",
+  "identifier": "com.willfaust.altsource",
   "sourceURL": "https://willfaust.github.io/altsource-apps.json",
   "apps": [
     {
@@ -110,6 +110,33 @@
           "downloadURL": "https://github.com/XITRIX/iTorrent/releases/download/v1.8.3/iTorrent.ipa",
           "localizedDescription": "What's new:\n\n\u2022 Text accessibility support added\n\u2022 Huge backend refactoring\n\u2022 Libtorrent updated to 1.2.9\n\u2022 Minor UI improvements\n\u2022 Many bugs fixed (possibly new ones added)",
           "size": 21218913
+        }
+      ]
+    },
+    {
+      "name": "UTM",
+      "bundleIdentifier": "com.utmapp.UTM",
+      "developerName": "utmapp",
+      "subtitle": "Virtual machines for iOS and macOS",
+      "version": "4.4.4",
+      "versionDate": "2023-10-20",
+      "versionDescription": "Highlights:\n\n\u2022 macOS Sonoma support: New Apple Virtualization features include save/restore VM state and dynamic resolution for macOS Sonoma guests. Note that currently, you must remove the Sound and Entropy device in order to use save/restore VM state.\n\u2022 Automatically save state when you close a VM: This will only work on VMs that support save states. If your VM does not support it, you will get an error message with an explanation.\n\u2022 (macOS) USB commands in utmctl You can now use utmctl usb commands to connect and disconnect USB devices from a running VM.",
+      "downloadURL": "https://github.com/utmapp/UTM/releases/download/v4.4.4/UTM.ipa",
+      "localizedDescription": "UTM is a full featured system emulator and virtual machine host for iOS and macOS. It is based off of QEMU. In short, it allows you to run Windows, Linux, and more on your Mac, iPhone, and iPad. More information at https://getutm.app/ and https://mac.getutm.app/",
+      "iconURL": "https://raw.githubusercontent.com/utmapp/UTM/main/Platform/Assets.xcassets/AppIcon.appiconset/Icon.png",
+      "tintColor": "#2349ce",
+      "size": 121809967,
+      "screenshotURLs": [
+        "https://i.imgur.com/J7tLjc8.png",
+        "https://i.imgur.com/COB5Ws7.jpeg"
+      ],
+      "versions": [
+        {
+          "version": "4.4.4",
+          "versionDate": "2023-10-20",
+          "downloadURL": "https://github.com/utmapp/UTM/releases/download/v4.4.4/UTM.ipa",
+          "localizedDescription": "Highlights:\n\n\u2022 macOS Sonoma support: New Apple Virtualization features include save/restore VM state and dynamic resolution for macOS Sonoma guests. Note that currently, you must remove the Sound and Entropy device in order to use save/restore VM state.\n\u2022 Automatically save state when you close a VM: This will only work on VMs that support save states. If your VM does not support it, you will get an error message with an explanation.\n\u2022 (macOS) USB commands in utmctl You can now use utmctl usb commands to connect and disconnect USB devices from a running VM.",
+          "size": 121809967
         }
       ]
     }
